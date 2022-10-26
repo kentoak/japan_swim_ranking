@@ -1,12 +1,13 @@
 # japan_swim_ranking
 
 ## swimrecord.ipynb
-curlする。allpagesで50位ずつ取得できる
+https://result.swim.or.jp/ からcurlする
+allpagesで50位ずつ取得
 
 ## concat.ipynb
-curlしたは50位ずつで一つのjsonファイルなのでそれをを結合する。
+curlしたjsonファイルは50位ずつで1つのファイルなのでそれを結合する。
 
-## useJson.ipynb
+## getTopTen.ipynb
 top10の選手の記録を集める
 
 ## name_event.ipynb
